@@ -1,0 +1,111 @@
+.dish-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  list-style-type: square;
+}
+
+.dish-wrapper-main-image {
+  border-radius: 20px;
+  height: 600px;
+  width: 520px;
+  margin: 30px 50px 0 0;
+  object-fit: cover;
+}
+
+.dish-page-info {
+  width: 700px;
+}
+
+.dish-page-info-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish-page-info-title > h2 {
+  font-size: 1.7rem;
+}
+
+.dish-page-info-title .favourite-button {
+  width: 22px;
+  height: 22px;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.dish-page-info-section-header {
+  display: flex;
+  align-items: center;
+  color: #8CC25F;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.dish-page-info-section-header-line {
+  height: 1px;
+  flex: 1;
+  background-color: #CFCFCF;
+  margin-left: 10px;
+}
+
+.dish-page-info-ingredients {
+  list-style-type: none;
+}
+
+.dish-page-info-ingredients li::marker {
+  color: #F5F5F5;
+}
+
+.ingredient-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.mandatory::marker {
+  color: #8CC25F;
+}
+
+.dish-page-info-sequence ol {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.dish-page-info-sequence li::marker {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  .dish-wrapper-main-image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 879px) {
+  .dish-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dish-wrapper-main-image {
+    width: 700px;
+    margin: 30px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dish-wrapper-main-image {
+    width: 90%;
+    height: 300px;
+  }
+
+  .dish-page-info {
+    width: 90%;
+  }
+
+  .dish-page-info-title > h2 {
+    font-size: 1.5rem;
+  }
+}

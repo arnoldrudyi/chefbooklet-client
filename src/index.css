@@ -1,0 +1,15 @@
+body {
+  position: relative;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: calc(100vh - 100px);
+  flex: 1;
+  padding-top: 80px;
+}

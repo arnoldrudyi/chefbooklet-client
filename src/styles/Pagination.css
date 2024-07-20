@@ -1,0 +1,40 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.pagination > button {
+    font-family: Montserrat;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.pagination > button:hover {
+    color: #8CC25F;
+}
+
+.pagination > button.current {
+    font-weight: bold;
+    color: #8CC25F;
+    cursor: auto;
+}
+
+.pagination > button:disabled {
+    color: #B7B7B7;
+    cursor: auto;
+}
+
+.pagination > button:disabled:hover {
+    color: #B7B7B7;
+}
+
+@media screen and (max-width: 480px) {
+    .pagination {
+        margin-bottom: 40px;
+        column-gap: 10px;
+    }
+}
