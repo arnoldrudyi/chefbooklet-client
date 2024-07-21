@@ -109,7 +109,7 @@ export default function HomePage({ showSignup, showLogin, toggleSignup, toggleLo
             <button className={nationality === 'italian' && 'selected'} onClick={() => setNationality('italian')}><img src={require('../images/flags/IT-flag.png')} alt='italian-cuisine' />Italian</button>
             <button className={nationality === 'american' && 'selected'} onClick={() => setNationality('american')}><img src={require('../images/flags/US-flag.png')} alt='american-cuisine' />American</button>
             <button className={nationality === 'ukrainian' && 'selected'} onClick={() => setNationality('ukrainian')}><img src={require('../images/flags/UA-flag.png')} alt='ukrainian-cuisine' />Ukrainian</button>
-            <button className={nationality === 'japanese' && 'selected'} onClick={() => setNationality('japanese')}><img src={require('../images/flags/JP-flag.png')} alt='japanese-cuisine' />Japanese</button>
+            <button className={nationality === 'hungarian' && 'selected'} onClick={() => setNationality('hungarian')}><img src={require('../images/flags/HU-flag.png')} alt='japanese-cuisine' />Hungarian</button>
             <button className={nationality === 'worldwide' && 'selected'} onClick={() => setNationality('worldwide')} style={{gridColumn: "span 4", marginTop: "13px"}}><img src={require('../images/flags/GL-flag.png')} alt='worldwide-cuisine' />Worldwide</button>
           </div>
         </div>
