@@ -5,10 +5,10 @@ import { useCookies } from 'react-cookie';
 import axios from "axios";
 import config from '../config';
 
-import Header from "./Header";
-import Pagination from "./Pagination";
-import Footer from "./Footer";
-import DishCard from "./DishCard";
+import Header from "../components/Header";
+import Pagination from "../components/Pagination";
+import Footer from "../components/Footer";
+import DishCard from "../components/DishCard";
 
 import errorHat from '../images/error-hat.png';
 

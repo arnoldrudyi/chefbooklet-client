@@ -7,11 +7,11 @@ import HashLoader from "react-spinners/HashLoader";
 import Aos from 'aos';
 import config from '../config';
 
-import Header from './Header';
-import DishCard from './DishCard';
-import Footer from './Footer';
-import SignupModal from './SignupModal';
-import LoginModal from './LoginModal';
+import Header from '../components/Header';
+import DishCard from '../components/DishCard';
+import Footer from '../components/Footer';
+import SignupModal from '../components/SignupModal';
+import LoginModal from '../components/LoginModal';
 
 import vegetables from '../images/veggies.png';
 import searchBar from '../images/search-bar.png';

@@ -4,12 +4,12 @@ import axios from "axios";
 import HashLoader from "react-spinners/HashLoader";
 import config from '../config';
 
-import Header from "./Header";
-import Pagination from "./Pagination";
-import Footer from "./Footer";
-import SignupModal from "./SignupModal";
-import LoginModal from "./LoginModal";
-import DishCard from "./DishCard";
+import Header from "../components/Header";
+import Pagination from "../components/Pagination";
+import Footer from "../components/Footer";
+import SignupModal from "../components/SignupModal";
+import LoginModal from "../components/LoginModal";
+import DishCard from "../components/DishCard";
 
 import errorHat from '../images/error-hat.png';
 

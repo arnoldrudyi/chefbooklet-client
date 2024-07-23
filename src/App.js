@@ -3,12 +3,12 @@ import axios from 'axios';
 import { useCookies } from 'react-cookie';
 import config from './config';
 
-import HomePage from './components/HomePage';
-import DishPage from './components/DishPage';
-import NationalityPage from './components/NationalityPage';
-import SearchResults from './components/SearchResults';
-import FavouritesPage from './components/FavouritesPage';
-import ErrorPage from './components/ErrorPage';
+import HomePage from './pages/HomePage';
+import DishPage from './pages/DishPage';
+import NationalityPage from './pages/NationalityPage';
+import SearchResults from './pages/SearchResults';
+import FavouritesPage from './pages/FavouritesPage';
+import ErrorPage from './pages/ErrorPage';
 
 function App({ page }) {
   const [showSignup, setShowSignup] = React.useState(false)

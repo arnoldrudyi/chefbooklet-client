@@ -5,10 +5,10 @@ import HashLoader from "react-spinners/HashLoader";
 import { useCookies } from 'react-cookie';
 import config from '../config';
 
-import Header from "./Header";
-import Footer from "./Footer";
-import SignupModal from "./SignupModal";
-import LoginModal from "./LoginModal";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import SignupModal from "../components/SignupModal";
+import LoginModal from "../components/LoginModal";
 
 import errorHat from '../images/error-hat.png';
 import starIconActive from '../images/star-icon-active.svg';
